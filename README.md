@@ -56,38 +56,6 @@ npm start
 
 5. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Environment Variables
-
-The app supports environment variables for secure API key management. Create a `.env` file in the root directory:
-
-```bash
-# Airtable Configuration
-REACT_APP_AIRTABLE_API_KEY=your_airtable_api_key_here
-REACT_APP_AIRTABLE_BASE_ID=appzoQTNh3p9RaYMK
-REACT_APP_AIRTABLE_TABLE_ID=tbljZMIenzInH7C0t
-
-# LinkedIn Configuration
-REACT_APP_LINKEDIN_ACCESS_TOKEN=your_linkedin_access_token_here
-REACT_APP_LINKEDIN_PERSON_ID=onbW2WIwhS
-
-# Telegram Configuration
-REACT_APP_TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
-REACT_APP_TELEGRAM_CHAT_ID=7085311717
-
-# RapidAPI Configuration (Medium API)
-REACT_APP_RAPIDAPI_KEY=5f0eb985b5mshc11973f4c989e92p1f2f7ajsn1c2c1107bbdb
-
-# Optional: Debug mode
-REACT_APP_DEBUG=false
-```
-
-### Environment Variable Features
-
-- **Automatic Detection**: The app automatically detects if environment variables are set
-- **Fallback to Manual Input**: If env vars aren't set, you can still configure via the UI
-- **Visual Indicators**: Shows which keys are set via environment variables
-- **Security**: Environment variables are more secure than hardcoded values
-
 ## Usage
 
 ### Testing the System
